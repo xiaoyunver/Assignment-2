@@ -1,0 +1,45 @@
+/*style.css*/
+html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
+    margin:0;
+    padding:0;
+}
+body{
+    position:relative;
+}
+#red{
+    background:red;
+    position:relative;
+    width:100%;
+    min-height:70px;
+    z-index:9999;
+}
+
+#yellow {
+    background: yellow;
+    width: 33.3333%;
+    min-height:400px;
+    float:left;
+}
+
+#green {
+    background: green;
+    width: 33.3333%;
+    min-height:400px;
+    float:left;
+}
+
+#blue {
+    background: blue;
+    width: 33.3333%;
+    min-height:400px;
+    float:left;
+}
+
+#purple{
+    background:purple;
+    width:100%;
+    min-height:70px;
+    position:relative;
+    clear:both;
+}
+
